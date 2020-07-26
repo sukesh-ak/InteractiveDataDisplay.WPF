@@ -1,13 +1,11 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
 
   <ItemGroup>
-    <ProjectReference Include="..\..\src\InteractiveDataDisplay.WPF.csproj" />
+    <PackageReference Include="ViceCode.MapControl.WPF" Version="2.0.0" />
   </ItemGroup>
 
   <ItemGroup>
-    <Reference Include="Microsoft.Maps.MapControl.WPF">
-      <HintPath>..\..\..\..\Program Files (x86)\Bing Maps WPF Control\V1\Libraries\Microsoft.Maps.MapControl.WPF.dll</HintPath>
-    </Reference>
+    <ProjectReference Include="..\..\src\InteractiveDataDisplay.WPF.csproj" />
   </ItemGroup>
 
   <PropertyGroup>
