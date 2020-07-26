@@ -1,19 +1,19 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26124.0
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30320.27
 MinimumVisualStudioVersion = 15.0.26124.0
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InteractiveDataDisplay.WPF", "..\src\InteractiveDataDisplay.WPF.csproj", "{9E11FAD5-9967-4917-BFDB-436CAAC53B4C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InteractiveDataDisplay.WPF", "..\src\InteractiveDataDisplay.WPF.csproj", "{9E11FAD5-9967-4917-BFDB-436CAAC53B4C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BarChartSample", "..\samples\BarChartSample\BarChartSample.csproj", "{E489642B-F6D5-449E-8BEF-67E1D376D323}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BarChartSample", "..\samples\BarChartSample\BarChartSample.csproj", "{E489642B-F6D5-449E-8BEF-67E1D376D323}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HeatmapSample", "..\samples\HeatmapSample\HeatmapSample.csproj", "{EC80E000-26CC-44C6-81EC-4588E17DF5A1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HeatmapSample", "..\samples\HeatmapSample\HeatmapSample.csproj", "{EC80E000-26CC-44C6-81EC-4588E17DF5A1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LineGraphSample", "..\samples\LineGraphSample\LineGraphSample.csproj", "{C35207DA-9E1C-4D2D-8E4F-7AA193B3B7E8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LineGraphSample", "..\samples\LineGraphSample\LineGraphSample.csproj", "{C35207DA-9E1C-4D2D-8E4F-7AA193B3B7E8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarkersSample", "..\samples\MarkersSample\MarkersSample.csproj", "{FB0604D7-47DF-4922-BD78-842A1C1AE861}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MarkersSample", "..\samples\MarkersSample\MarkersSample.csproj", "{FB0604D7-47DF-4922-BD78-842A1C1AE861}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SyncGraphsSample", "..\samples\SyncGraphsSample\SyncGraphsSample.csproj", "{6E0CBDE1-8A39-4F6E-9CA7-5B0BE04761B1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SyncGraphsSample", "..\samples\SyncGraphsSample\SyncGraphsSample.csproj", "{6E0CBDE1-8A39-4F6E-9CA7-5B0BE04761B1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,9 +23,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{9E11FAD5-9967-4917-BFDB-436CAAC53B4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -100,5 +97,11 @@ Global
 		{6E0CBDE1-8A39-4F6E-9CA7-5B0BE04761B1}.Release|x64.Build.0 = Release|Any CPU
 		{6E0CBDE1-8A39-4F6E-9CA7-5B0BE04761B1}.Release|x86.ActiveCfg = Release|Any CPU
 		{6E0CBDE1-8A39-4F6E-9CA7-5B0BE04761B1}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {15B87C24-9107-45D6-8AB1-BFE0706949BF}
 	EndGlobalSection
 EndGlobal
